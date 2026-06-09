@@ -1,0 +1,7 @@
+{
+  "layered-image":
+  {
+    "background" : "$media:chunbai",
+    "foreground" : "$media:soup1024"
+  }
+}

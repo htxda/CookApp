@@ -1,0 +1,210 @@
+[2026-01-27T23:51:43.145] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-01-27T23:51:43.202] [DEBUG] debug-file - env: daemon=true
+[2026-01-27T23:51:43.146] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-01-27T23:51:43.908] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-01-27T23:51:43.913] [DEBUG] debug-file - java daemon started at port 45050 pid 25660
+[2026-01-27T23:51:43.953] [DEBUG] debug-file - session manager: set active socket. socketId=Y7-EDDRcc0X8_JDOAAAB
+[2026-01-27T23:51:44.678] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-01-27T23:51:44.714] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-01-27T23:51:44.714] [ERROR] debug-file - [31m00303010 Configuration Error
+Error Message: The property of module should be an array in root project build-profile.json5. At file: F:\harmony\newpersonal\entry\build-profile.json5
+
+* Try the following:
+  > Check the project-level build-profile.json5 file and ensure that the module's option is an array.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-01-27T23:51:44.715] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303010 Configuration Error
+Error Message: The property of module should be an array in root project build-profile.json5. At file: F:\harmony\newpersonal\entry\build-profile.json5
+
+* Try the following:
+  > Check the project-level build-profile.json5 file and ensure that the module's option is an array.
+[39m
+    at HvigorLogger.printErrorExit (D:\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5069)
+    at checkProjectConfigFile (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:3049)
+    at new HvigorConfig (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:1415)
+    at hvigorConfigInit (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:3474)
+    at init (D:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\init.js:1:2867)
+    at start (D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:2518)
+    at boot (D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:1818)
+    at Worker.<anonymous> (D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js:1:3511)
+    at Worker.emit (node:events:529:35)
+    at process.<anonymous> (node:internal/cluster/worker:35:12)
+[2026-01-27T23:51:44.715] [ERROR] debug-file - AdaptorError: [31m00303010 Configuration Error
+Error Message: The property of module should be an array in root project build-profile.json5. At file: F:\harmony\newpersonal\entry\build-profile.json5
+
+* Try the following:
+  > Check the project-level build-profile.json5 file and ensure that the module's option is an array.
+[39m
+    at HvigorLogger.printErrorExit (D:\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5069)
+    at checkProjectConfigFile (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:3049)
+    at new HvigorConfig (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:1415)
+    at hvigorConfigInit (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:3474)
+    at init (D:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\init.js:1:2867)
+    at start (D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:2518)
+    at boot (D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:1818)
+    at Worker.<anonymous> (D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js:1:3511)
+    at Worker.emit (node:events:529:35)
+    at process.<anonymous> (node:internal/cluster/worker:35:12)
+[2026-01-27T23:51:44.724] [ERROR] debug-file - BUILD FAILED in 41 ms 
+[2026-01-27T23:51:44.735] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-01-27T23:51:44.736] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-01-27T23:51:44.737] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-01-27T23:51:44.740] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-01-27T23:51:44.740] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-01-27T23:51:44.739] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-01-27T23:51:44.742] [DEBUG] debug-file - Cleanup worker 0.
+[2026-01-27T23:51:44.742] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-01-27T23:51:44.742] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-01-27T23:51:44.743] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-01-27T23:51:44.743] [DEBUG] debug-file - Cleanup worker 1.
+[2026-01-27T23:51:44.743] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-01-27T23:51:44.743] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-01-27T23:51:44.743] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-01-27T23:51:44.744] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-01-27T23:51:44.746] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-01-27T23:51:44.747] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-01-27T23:51:44.748] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-01-27T23:51:44.749] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-01-27T23:51:56.040] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-01-27T23:51:56.083] [DEBUG] debug-file - env: daemon=true
+[2026-01-27T23:51:56.041] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-01-27T23:51:56.629] [DEBUG] debug-file - session manager: set active socket. socketId=WSx90h_H5L_2CN3CAAAD
+[2026-01-27T23:51:56.653] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-01-27T23:51:56.658] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-01-27T23:51:56.659] [ERROR] debug-file - [31m00303010 Configuration Error
+Error Message: The property of module should be an array in root project build-profile.json5. At file: F:\harmony\newpersonal\entry\build-profile.json5
+
+* Try the following:
+  > Check the project-level build-profile.json5 file and ensure that the module's option is an array.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-01-27T23:51:56.659] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303010 Configuration Error
+Error Message: The property of module should be an array in root project build-profile.json5. At file: F:\harmony\newpersonal\entry\build-profile.json5
+
+* Try the following:
+  > Check the project-level build-profile.json5 file and ensure that the module's option is an array.
+[39m
+    at HvigorLogger.printErrorExit (D:\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5069)
+    at checkProjectConfigFile (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:3049)
+    at new HvigorConfig (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:1415)
+    at hvigorConfigInit (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:3474)
+    at init (D:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\init.js:1:2867)
+    at start (D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:2518)
+    at boot (D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:1818)
+    at Worker.<anonymous> (D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js:1:3511)
+    at Worker.emit (node:events:529:35)
+    at process.<anonymous> (node:internal/cluster/worker:35:12)
+[2026-01-27T23:51:56.659] [ERROR] debug-file - AdaptorError: [31m00303010 Configuration Error
+Error Message: The property of module should be an array in root project build-profile.json5. At file: F:\harmony\newpersonal\entry\build-profile.json5
+
+* Try the following:
+  > Check the project-level build-profile.json5 file and ensure that the module's option is an array.
+[39m
+    at HvigorLogger.printErrorExit (D:\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5069)
+    at checkProjectConfigFile (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:3049)
+    at new HvigorConfig (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:1415)
+    at hvigorConfigInit (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:3474)
+    at init (D:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\init.js:1:2867)
+    at start (D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:2518)
+    at boot (D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:1818)
+    at Worker.<anonymous> (D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js:1:3511)
+    at Worker.emit (node:events:529:35)
+    at process.<anonymous> (node:internal/cluster/worker:35:12)
+[2026-01-27T23:51:56.669] [ERROR] debug-file - BUILD FAILED in 14 ms 
+[2026-01-27T23:51:56.681] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-01-27T23:51:56.681] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-01-27T23:51:56.688] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-01-27T23:51:56.688] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-01-27T23:51:56.688] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-01-27T23:51:56.688] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-01-27T23:52:10.449] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-01-27T23:52:10.494] [DEBUG] debug-file - env: daemon=true
+[2026-01-27T23:52:10.451] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-01-27T23:52:11.011] [DEBUG] debug-file - session manager: set active socket. socketId=qAYVhny_eQ4h2e4jAAAF
+[2026-01-27T23:52:11.021] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-01-27T23:52:11.024] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-01-27T23:52:11.025] [ERROR] debug-file - [31m00303010 Configuration Error
+Error Message: The property of module should be an array in root project build-profile.json5. At file: F:\harmony\newpersonal\entry\build-profile.json5
+
+* Try the following:
+  > Check the project-level build-profile.json5 file and ensure that the module's option is an array.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-01-27T23:52:11.025] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303010 Configuration Error
+Error Message: The property of module should be an array in root project build-profile.json5. At file: F:\harmony\newpersonal\entry\build-profile.json5
+
+* Try the following:
+  > Check the project-level build-profile.json5 file and ensure that the module's option is an array.
+[39m
+    at HvigorLogger.printErrorExit (D:\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5069)
+    at checkProjectConfigFile (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:3049)
+    at new HvigorConfig (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:1415)
+    at hvigorConfigInit (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:3474)
+    at init (D:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\init.js:1:2867)
+    at start (D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:2518)
+    at boot (D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:1818)
+    at Worker.<anonymous> (D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js:1:3511)
+    at Worker.emit (node:events:529:35)
+    at process.<anonymous> (node:internal/cluster/worker:35:12)
+[2026-01-27T23:52:11.025] [ERROR] debug-file - AdaptorError: [31m00303010 Configuration Error
+Error Message: The property of module should be an array in root project build-profile.json5. At file: F:\harmony\newpersonal\entry\build-profile.json5
+
+* Try the following:
+  > Check the project-level build-profile.json5 file and ensure that the module's option is an array.
+[39m
+    at HvigorLogger.printErrorExit (D:\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5069)
+    at checkProjectConfigFile (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:3049)
+    at new HvigorConfig (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:1415)
+    at hvigorConfigInit (D:\DevEco Studio\tools\hvigor\hvigor\src\base\external\core\hvigor-config.js:1:3474)
+    at init (D:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\init.js:1:2867)
+    at start (D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:2518)
+    at boot (D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:1818)
+    at Worker.<anonymous> (D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js:1:3511)
+    at Worker.emit (node:events:529:35)
+    at process.<anonymous> (node:internal/cluster/worker:35:12)
+[2026-01-27T23:52:11.033] [ERROR] debug-file - BUILD FAILED in 11 ms 
+[2026-01-27T23:52:11.041] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-01-27T23:52:11.041] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-01-27T23:52:11.047] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-01-27T23:52:11.047] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-01-27T23:52:11.047] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-01-27T23:52:11.047] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
